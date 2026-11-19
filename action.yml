@@ -1,0 +1,12 @@
+name: "Gareth Layered Github Action 0"
+description: "Runs another action"
+
+runs:
+ using: "composite"
+ steps:
+   - name: Say Hello
+     shell: bash
+     run: echo "This is Action 0"
+branding:
+ icon: arrow-right
+ color: red
